@@ -41,7 +41,7 @@ Similar to the initiatives crafted by other content communities in efforts to li
 {
   "requiredStatement": {
   "label": { "en": [ "Regulated ML/AI Use Permitted - Attribution Required" ] },
-  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training datasets, as long as Standard Attribution of source content is maintained for the ML/AI  dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
+  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training datasets, as long as Standard Attribution of source content is maintained for the ML/AI dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
   }
 }
 ```
