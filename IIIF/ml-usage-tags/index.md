@@ -22,27 +22,36 @@ Similar to the initiatives crafted by other content communities in efforts to li
 #### For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
 ```JSON 
-  "label": { "en": [ "No AI" ] },
-  "value": { "en": [ "Material related to this IIIF Manifest should not be used for AI or ML  
-  training datasets." ] }
+{
+  "requiredStatement": {
+    "label": { "en": [ "No AI" ] },
+    "value": { "en": [ "Material related to this IIIF Manifest should not be used for AI or ML training datasets." ] }
+  }
+}
 ```
-```JSON 
+```JSON
+{
+  "requiredStatement": {
   "label": { "en": [ "No Image AI" ] },
-  "value": { "en": [ "Image-based material related to this IIIF Manifest should not be used for 
-  AI or ML training datasets." ] }
+  "value": { "en": [ "Image-based material related to this IIIF Manifest should not be used for AI or ML training datasets." ] }
+  }
+}
 ```
-```JSON 
+```JSON
+{
+  "requiredStatement": {
   "label": { "en": [ "Regulated ML/AI Use Permitted - Attribution Required" ] },
-  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training 
-  datasets, as long as Standard Attribution of source content is maintained for the ML/AI 
-  dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
+  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training datasets, as long as Standard Attribution of source content is maintained for the ML/AI  dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
+  }
+}
 ```
-```JSON 
+```JSON
+{
+  "requiredStatement": {
   "label": { "en": [ "Regulated ML/AI Use Permitted - Consent Required" ] },
-  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training   
-  datasets, if Prior Written Consent is obtained from the source holding institution. Standard 
-  Attribution of source content must be maintained for the ML/AI dataset. Original URL of 
-  source IIIF manifest must be maintained and referenced." ] }
+  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training datasets, if Prior Written Consent is obtained from the source holding institution. Standard Attribution of source content must be maintained for the ML/AI dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
+  }
+}
 ```
 
 #### For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
