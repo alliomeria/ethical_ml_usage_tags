@@ -16,7 +16,7 @@ topic:
 
 ## Implementation Notes
 
-Within [`tights`](https://iiif.io/api/presentation/3.0/#rights)
+Within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
 Within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
