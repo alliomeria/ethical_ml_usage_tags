@@ -15,10 +15,11 @@ property: rights, requiredStatement
 
 ## Use Case
 
+IIIF is an API based framework, geared to machine mediated interactions but: **IIIF resources are for humans** 
+
 ## Implementation Notes
 
-
-For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
+#### For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
   `"label": { "en": [ "No AI" ] },
   "value": { "en": [ "Material related to this IIIF Manifest should not be used for AI or ML  
@@ -39,11 +40,17 @@ For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#r
   Attribution of source content must be maintained for the ML/AI dataset. Original URL of 
   source IIIF manifest must be maintained and referenced." ] }`
 
-
-For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
+#### For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
 * URIs to be pursued for machineable interactions
 
+#### Additional Considerations
+
+* Use of these standardized `ML Usage` tags in IIIF Manifests will always need to be paired with sophisticated, up-to-date DevOps and data security practices within the context of a repository environment.
+
+* As we, professionally and personally, decide to use or integrate ML/AI tools into our repositories, we need to keep in mind our curatorial legacies and the complex nature of our own content.
+
+* ML/AI technology will continue to shift over time and require diligent application and monitoring, for the rest of our professional lives.
 
 ## Restrictions
 
