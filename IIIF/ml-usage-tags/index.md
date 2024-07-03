@@ -17,10 +17,32 @@ property: rights, requiredStatement
 
 ## Implementation Notes
 
+
+For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
+
+  `"label": { "en": [ "No AI" ] },
+  "value": { "en": [ "Material related to this IIIF Manifest should not be used for AI or ML  
+  training datasets." ] }` 
+
+  `"label": { "en": [ "No Image AI" ] },
+  "value": { "en": [ "Image-based material related to this IIIF Manifest should not be used for 
+  AI or ML training datasets." ] }`
+
+  `"label": { "en": [ "Regulated ML/AI Use Permitted - Attribution Required" ] },
+  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training 
+  datasets, as long as Standard Attribution of source content is maintained for the ML/AI 
+  dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }`
+
+  `"label": { "en": [ "Regulated ML/AI Use Permitted - Consent Required" ] },
+  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training   
+  datasets, if Prior Written Consent is obtained from the source holding institution. Standard 
+  Attribution of source content must be maintained for the ML/AI dataset. Original URL of 
+  source IIIF manifest must be maintained and referenced." ] }`
+
+
 Within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
-Within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
-
+ (*URIs to be pursued) in "rights":
 
 
 ## Restrictions
