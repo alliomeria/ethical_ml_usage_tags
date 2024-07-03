@@ -8,7 +8,7 @@ We strongly believe in the value of creating consensus and shared practices in o
 
 This Github repository is dedicated to the creation and management of specialized, standardized tags and rights/access statements to be used within the metadata records and schemas applied when sharing digital repository and/or collections content.
 
-## IIIF Manifest ML/AI Tags Tags
+## IIIF Manifest ML/AI Usage Tags
 
 The first set of these specialized tags was [proposed during the 2024 IIIF Annual Conference, for use within IIIF Manifests](https://docs.google.com/presentation/d/18rggHeFld7HOJefmVc6ku_7M5edLfgfZkpnQZiagSOA/edit?usp=share_link). 
 
