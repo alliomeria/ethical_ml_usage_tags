@@ -21,34 +21,39 @@ Similar to the initiatives crafted by other content communities in efforts to li
 
 #### For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
-  `"label": { "en": [ "No AI" ] },
+```JSON 
+  "label": { "en": [ "No AI" ] },
   "value": { "en": [ "Material related to this IIIF Manifest should not be used for AI or ML  
-  training datasets." ] }` 
-
-  `"label": { "en": [ "No Image AI" ] },
+  training datasets." ] }
+```
+```JSON 
+  "label": { "en": [ "No Image AI" ] },
   "value": { "en": [ "Image-based material related to this IIIF Manifest should not be used for 
-  AI or ML training datasets." ] }`
-
-  `"label": { "en": [ "Regulated ML/AI Use Permitted - Attribution Required" ] },
+  AI or ML training datasets." ] }
+```
+```JSON 
+  "label": { "en": [ "Regulated ML/AI Use Permitted - Attribution Required" ] },
   "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training 
   datasets, as long as Standard Attribution of source content is maintained for the ML/AI 
-  dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }`
-
-  `"label": { "en": [ "Regulated ML/AI Use Permitted - Consent Required" ] },
+  dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
+```
+```JSON 
+  "label": { "en": [ "Regulated ML/AI Use Permitted - Consent Required" ] },
   "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training   
   datasets, if Prior Written Consent is obtained from the source holding institution. Standard 
   Attribution of source content must be maintained for the ML/AI dataset. Original URL of 
-  source IIIF manifest must be maintained and referenced." ] }`
+  source IIIF manifest must be maintained and referenced." ] }
+```
 
 #### For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
-* URIs to be pursued for machineable interactions
+* URIs to be pursued for machineable interactions, pending further discussions within the IIIF and wider repository communities during Summer to Autumn 2024.
 
 #### Additional Considerations
 
 * IIIF is an API based framework, geared to machine mediated interactions but: **IIIF resources are for humans** 
 
-* Use of these standardized `ML Usage` tags in IIIF Manifests will always need to be paired with sophisticated, up-to-date DevOps and data security practices within the context of a repository environment.
+* Use of these standardized ML Usage tags in IIIF Manifests will always need to be paired with sophisticated, up-to-date DevOps and data security practices within the context of a repository environment.
 
 * As we, professionally and personally, decide to use or integrate ML/AI tools into our repositories, we need to keep in mind our curatorial legacies and the complex nature of our own content.
 
