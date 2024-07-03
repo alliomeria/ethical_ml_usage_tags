@@ -2,4 +2,16 @@
 
 The first set of specialized tags was [proposed during the 2024 IIIF Annual Conference, for use within IIIF Manifests](https://docs.google.com/presentation/d/18rggHeFld7HOJefmVc6ku_7M5edLfgfZkpnQZiagSOA/edit?usp=share_link). 
 
-The enclosing IIIF folder in this repository will serve as a working studio space for initial creation and editing, while working with the IIIF Community towards a [IIIF Cookbook Recipe Set](https://github.com/IIIF/cookbook-recipes). 
+This IIIF folder and set of documents serves as a working studio space for initial creation and editing, while working with the IIIF Community towards a [IIIF Cookbook Recipe Set](https://github.com/IIIF/cookbook-recipes). 
+
+### Initial Tags Proposed
+
+Using language and standards based on larger Creative Community’s (DevianArt & others) “noai” and “noimageai” tags, and licenses from RightsStatements.org 
+
+* No AI
+    * no image or textual ML/AI at all
+* No Image AI
+    * no image-based ML/AI, but textual (metadata, ocr, transcript) use ok
+* Regulated AI
+    * ML/AI Use Permitted - with attribution
+    * ML/AI Use Permitted - with express written consent and attribution
