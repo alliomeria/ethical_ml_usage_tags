@@ -15,7 +15,7 @@ property: rights, requiredStatement
 
 ## Use Case
 
-IIIF is an API based framework, geared to machine mediated interactions but: **IIIF resources are for humans** 
+Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags within the standard IIIF API frameworks to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications. 
 
 ## Implementation Notes
 
@@ -45,6 +45,8 @@ IIIF is an API based framework, geared to machine mediated interactions but: **I
 * URIs to be pursued for machineable interactions
 
 #### Additional Considerations
+
+* IIIF is an API based framework, geared to machine mediated interactions but: **IIIF resources are for humans** 
 
 * Use of these standardized `ML Usage` tags in IIIF Manifests will always need to be paired with sophisticated, up-to-date DevOps and data security practices within the context of a repository environment.
 
