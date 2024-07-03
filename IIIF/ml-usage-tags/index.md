@@ -40,9 +40,9 @@ For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#r
   source IIIF manifest must be maintained and referenced." ] }`
 
 
-Within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
+For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
- (*URIs to be pursued) in "rights":
+* URIs to be pursued for machineable interactions
 
 
 ## Restrictions
