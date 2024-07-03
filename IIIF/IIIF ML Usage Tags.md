@@ -6,9 +6,9 @@ This IIIF folder and set of documents serves as a working studio space for initi
 
 ## IIIF Cookbook Recipe Versions
 
-Following along with the [IIIF Cook Recipe Process and Templates](https://github.com/IIIF/cookbook-recipes/blob/master/recipe/index.md), please see the corresponding [ml-usage-tags folder](/ml-usage-tags). 
+Following along with the [IIIF Cook Recipe Process and Templates](https://github.com/IIIF/cookbook-recipes/blob/master/recipe/index.md), please see the corresponding [ml-usage-tags folder](/ml-usage-tags). This is a work-in-progress, check back for updates throughout Summer 2024.
 
-### Initial Tags Proposed
+### Overview of Initial Tags Proposed
 
 For use within `requiredStatement` for humans and `rights` for machines.
 
@@ -26,7 +26,6 @@ Using language and standards based on larger Creative Community’s (DevianArt &
 
 For wider discussion and consideration with other IIIF Community members/users:
 * Simple use cases (apply per manifest) versus complex uses casses (apply per item/canvas)
-
 
 -- 
 
