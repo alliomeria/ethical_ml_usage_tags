@@ -8,8 +8,9 @@ viewers:
  - Mirador
  - UV
 topic: 
- - rights
- - requiredStatement
+ - text
+ - presentation
+property: rights, requiredStatement   
 ---
 
 ## Use Case
@@ -35,3 +36,5 @@ No known restrictions.
 The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
+
+* [Rights][0008] for demonstrating use of `rights` and `requiredStatement`
