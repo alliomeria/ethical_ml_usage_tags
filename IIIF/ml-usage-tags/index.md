@@ -76,7 +76,7 @@ No known restrictions.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="31-89"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="30-39"' %}
 
 The direct link to the fixture is a useful convenience.
 
