@@ -15,7 +15,7 @@ property: rights, requiredStatement
 
 ## Use Case
 
-Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags within the standard IIIF API frameworks to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications. 
+Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags their IIIF manifests to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications.
 
 ## Implementation Notes
 
