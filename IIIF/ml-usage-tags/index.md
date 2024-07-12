@@ -19,6 +19,10 @@ Similar to the initiatives crafted by other content communities in efforts to li
 
 ## Implementation Notes
 
+Use of these standardized ML/AI Usage tags in IIIF Manifests will always need to be paired with sophisticated, up-to-date DevOps and data security practices within the context of a repository environment.
+
+Recommendation to use a single applicable tag, based on the particular concerns associated with an asset's use in ML/AI applications.
+
 #### For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
 ```JSON 
@@ -56,13 +60,11 @@ Similar to the initiatives crafted by other content communities in efforts to li
 
 #### For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
-* URIs to be pursued for machineable interactions, pending further discussions within the IIIF and wider repository communities during Summer to Autumn 2024.
+* URIs to be pursued for machineable interactions, pending further discussions within the IIIF and wider repository communities during Summer 2024 and onwards.
 
 #### Additional Considerations
 
 * IIIF is an API based framework, geared to machine mediated interactions but: **IIIF resources are for humans** 
-
-* Use of these standardized ML Usage tags in IIIF Manifests will always need to be paired with sophisticated, up-to-date DevOps and data security practices within the context of a repository environment.
 
 * As we, professionally and personally, decide to use or integrate ML/AI tools into our repositories, we need to keep in mind our curatorial legacies and the complex nature of our own content.
 
@@ -77,8 +79,6 @@ No known restrictions.
 {% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="30-39"' %}
-
-The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
