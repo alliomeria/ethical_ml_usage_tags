@@ -64,6 +64,8 @@ Recommendation to use a single applicable tag, based on the particular concerns 
 
 #### Additional Considerations
 
+* Simple use cases (apply per manifest) versus complex uses casses (apply per item/canvas)
+
 * IIIF is an API based framework, geared to machine mediated interactions but: **IIIF resources are for humans** 
 
 * As we, professionally and personally, decide to use or integrate ML/AI tools into our repositories, we need to keep in mind our curatorial legacies and the complex nature of our own content.
