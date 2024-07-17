@@ -25,6 +25,14 @@ Wikidata Items were created to share referenceable statements within a wider con
 
 Please see the full [Wikidata Items document](wikidata-items.md) for more details. 
 
+## SKOS & Turtle Versions of the Statements
+
+SKOS & Turtle serialized versions of the four statements to be crafted during the later half of 2024. 
+
+## Stable URIs Development and Maintenance
+
+By-end-of-2024 goal for this project: the development of stables URIs published from this project repository to best ensure machineable interactions and long term maintenance of these standarized statements. The Wikidata Items and SKOS & Turtle Versions of these Statements will be updated to reflect back to the stable URIs (similar to the structures of other existing standarized rights statements used within library, archives, and cultural heritage contexts).
+
 # Acknowledgements
 
 This repository created and maintained by [Allison Sherrick](https://github.com/alliomeria), Digital Projects and Services Manager at the Metropolitan New York Library Council.
