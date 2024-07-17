@@ -25,9 +25,9 @@ Wikidata Items were created to share referenceable statements within a wider con
 
 Please see the full [Wikidata Items document](wikidata-items.md) for more details. 
 
-## SKOS & Turtle Versions of the Statements
+## JSON-LD + RDF Versions of the Statements
 
-SKOS & Turtle serialized versions of the four statements to be crafted during the later half of 2024. 
+JSON-LD + RDF serialized versions of the four statements to be crafted during the later half of 2024. (SKOS + Turtle too?)
 
 ## Stable URIs Development and Maintenance
 
