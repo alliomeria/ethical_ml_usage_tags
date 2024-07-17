@@ -1,4 +1,4 @@
-# Ethical ML Usage Tags
+# Ethical ML/AI Usage Tags Project
 
 Libraries, archives, museums, and other cultural heritage organizations are dedicated to collecting, preserving, and providing access to a wonderful milieu of research, historical, and cultural resources around the world.
 
