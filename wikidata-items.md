@@ -47,7 +47,7 @@ The following statements, descriptions, and properties outline the Wikidata Item
 ## Regulated ML/AI Use Permitted - Attribution Required Statement
 [https://www.wikidata.org/wiki/Q127516763](https://www.wikidata.org/wiki/Q127516763)
 
-* `Label (English)`: Regulated ML/AI Use Permitted - Attribution Required
+* `Label (English)`: Regulated ML/AI Use Permitted - Attribution Required Statement
 * `Description (English)`: Statement that indicates material related to this Digital Object may be used for AI or ML training datasets, as long as Standard Attribution of source Digital Object Title and URL is maintained and referenced publicly for the ML/AI dataset.
 * `aliases`: Regulated AI/ML Use Permitted - Attribution Required | Regulated AI Use Permitted - Attribution Required | Regulated ML Use Permitted - Attribution Required
 * `instance of`: [Ethical ML/AI Usage Statement](https://www.wikidata.org/wiki/Q127515163)
@@ -58,7 +58,7 @@ The following statements, descriptions, and properties outline the Wikidata Item
 ## Regulated ML/AI Use Permitted - Consent Required Statement
 [https://www.wikidata.org/wiki/Q127518037](https://www.wikidata.org/wiki/Q127518037)
 
-* `Label (English)`: Regulated ML/AI Use Permitted - Consent Required
+* `Label (English)`: Regulated ML/AI Use Permitted - Consent Required Statement
 * `Description (English)`: Statement that indicates material related to this Digital Object may be used for AI or ML training datasets, if Prior Written Consent is obtained from the Source Holding Institution and Standard Attribution is maintained and referenced publicly.
 * `aliases`: Regulated AI/ML Use Permitted - Consent Required | Regulated AI Use Permitted - Consent Required | Regulated ML Use Permitted - Consent Required
 * `instance of`: [Ethical ML/AI Usage Statement](https://www.wikidata.org/wiki/Q127515163)
