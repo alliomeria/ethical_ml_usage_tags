@@ -14,6 +14,17 @@ The first set of these specialized tags was [proposed during the 2024 IIIF Annua
 
 The enclosing IIIF folder in this repository will serve as a working studio space for initial creation and editing, while working with the IIIF Community towards a [IIIF Cookbook Recipe Set](https://github.com/IIIF/cookbook-recipes). 
 
+## Wikidata
+
+Wikidata Items were created to share referenceable statements within a wider context.
+
+* [No AI Statement](https://www.wikidata.org/wiki/Q127515624)
+* [No Image AI Usage Statement](https://www.wikidata.org/wiki/Q127516405)
+* [Regulated ML/AI Use Permitted - Attribution Required Statement](https://www.wikidata.org/wiki/Q127516763)
+* [Regulated ML/AI Use Permitted - Consent Required Statement](https://www.wikidata.org/wiki/Q127518037)
+
+Please see the full [Wikidata Items document](wikidata-items.md) for more details. 
+
 # Acknowledgements
 
 This repository created and maintained by [Allison Sherrick](https://github.com/alliomeria), Digital Projects and Services Manager at the Metropolitan New York Library Council.
