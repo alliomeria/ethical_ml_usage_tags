@@ -22,7 +22,7 @@ The following statements, descriptions, and properties outline the Wikidata Item
 * `maintained by`: [Ethical ML/AI Usage Tags Project](https://www.wikidata.org/wiki/Q127515228)
 
 
-## No AI Statement
+## No AI Usage Statement
 [https://www.wikidata.org/wiki/Q127515624](https://www.wikidata.org/wiki/Q127515624)
 
 * `Label (English)`: No AI Usage Statement
@@ -33,7 +33,7 @@ The following statements, descriptions, and properties outline the Wikidata Item
 * `maintained by`: [Ethical ML/AI Usage Tags Project](https://www.wikidata.org/wiki/Q127515228)
 
 
-## No Image AI Statement
+## No Image Usage AI Statement
 [https://www.wikidata.org/wiki/Q127516405](https://www.wikidata.org/wiki/Q127516405)
 
 * `Label (English)`: No Image AI Usage Statement
