@@ -13,19 +13,21 @@ property: rights, requiredStatement
 
 ## Use Case
 
-Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags/statements their IIIF manifests to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications.
+Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags/statements in their IIIF manifests to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications.
 
 ## Implementation Notes
 
 Use of these standardized ML/AI Usage tags/statements in IIIF Manifests will always need to be paired with sophisticated, up-to-date DevOps and data security practices within the context of a repository environment.
 
-Recommendation is to use a single applicable tag/statement, based on the particular concerns associated with an asset's use in ML/AI applications. 
+Recommendation is to use a single applicable tag/statement, based on the particular concerns associated with an asset's use in ML/AI applications.
 
 ### Using `rights` statement URIs sourced from Wikidata
 
-The examples shown here reference the Wikidata URIs for the different statements. As described in the [IIIF Presentation 3.0 `rights` property](https://iiif.io/api/presentation/3.0/#rights), currently URIs should be sourced from Creative Commons or RightsStatements.org. For URIs that do not reference either of these sources, the [`extensions`](https://iiif.io/api/presentation/3.0/#46-linked-data-context-and-extensions) mechanism using a source found in one of the [IIIF Registry of Known Extensions](https://iiif.io/api/registry/) can also be used. Wikidata is included in the  [Profiles Registry](https://iiif.io/api/registry/profiles/).
+The examples shown here reference the Wikidata URIs for the different statements. As described in the [IIIF Presentation 3.0 `rights` property](https://iiif.io/api/presentation/3.0/#rights), URIs should be sourced from Creative Commons or RightsStatements.org. For URIs that do not reference either of these sources, the [`extensions`](https://iiif.io/api/presentation/3.0/#46-linked-data-context-and-extensions) mechanism using a source found in one of the [IIIF Registry of Known Extensions](https://iiif.io/api/registry/) can also be used. Wikidata is included in the  [Profiles Registry](https://iiif.io/api/registry/profiles/).
 
 Please see the [goals statement on Stable URIs Development and Maintenance in the Ethical ML/AI Usage Tags Project Repository](https://github.com/alliomeria/ethical_ml_usage_tags/blob/main/README.md#stable-uris-development-and-maintenance) for information about the longer term plans regarding related URIs. When those stable URIs are finalized, a proposal will be made to add to the [Rights Registry](https://iiif.io/api/registry/rights/).
+
+Aside from providing a link reference which typically leads to a static webpage that describes a license/statement in greater detail, a machineable outcome of the usage of Creative Commons or RightsStatement.org URIs within the `rights` property is the display of the corresponding license/statement icon or badge within one of the standard IIIF viewers (as shown in the example below). In the future, there may be ways to extend the machineable outcomes associated with these ML/AI Usage tags/statements (or other `rights` values) in ways that direct responses for machine-mediated bots, crawlers, and harvesters.
 
 #### For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
