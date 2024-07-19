@@ -13,7 +13,7 @@ property: rights, requiredStatement
 
 ## Use Case
 
-Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags/statements in their IIIF manifests to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications.
+Similar to the initiatives crafted by other communities of practice in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags/statements in their IIIF manifests to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications.
 
 ## Implementation Notes
 
@@ -55,7 +55,7 @@ Aside from providing a link reference which typically leads to a static webpage 
 { "rights": "https://www.wikidata.org/wiki/Q127518037" }
 ```
 
-#### For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
+#### For humans (public display), within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
 ```JSON 
 {
