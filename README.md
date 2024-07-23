@@ -31,7 +31,7 @@ JSON-LD + RDF serialized versions of the four statements to be crafted during th
 
 ## Stable URIs Development and Maintenance
 
-Late 2024/early 2025 goal for this project: the development of stable, permanent URIs published from this project repository to best ensure machineable interactions and long term maintenance of these standarized statements. The Wikidata Items and SKOS & Turtle Versions of these Statements will be updated to reflect back to the stable URIs (similar to the structures of other existing standarized rights statements used within library, archives, and cultural heritage contexts).
+Late 2024/early 2025 goal for this project: the development of stable, permanent URIs published from this project repository to best ensure machineable interactions and long term maintenance of these standarized statements. The Wikidata Items and JSON-LD + RDF versions of these Statements will be updated to reflect back to the stable URIs (similar to the structures of other existing standarized rights statements used within library, archives, and cultural heritage contexts).
 
 # Acknowledgements
 
